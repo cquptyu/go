@@ -10,11 +10,10 @@ type people struct {
 
 func (people) walk() {
 	println("走路")
-
 }
 
 func main() {
 
 	var peple = new(people)
-	println(peple)
+	peple.walk()
 }
