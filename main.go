@@ -1,8 +1,5 @@
 package main
 
-type alive interface {
-	walk()
-}
 type people struct {
 	name string
 	age  int
@@ -13,7 +10,6 @@ func (people) walk() {
 }
 
 func main() {
-
 	var peple = new(people)
 	peple.walk()
 }
